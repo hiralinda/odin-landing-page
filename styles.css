@@ -1,8 +1,33 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
 
+a {
+    color: #F9FAF8;
+}
 
+button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 10px;
+}
 
-section {
+.nav {
+    display: flex; 
+    background-color: #1F2937;
+    padding: 5px 200px;
+    justify-content: space-between; 
+    align-items: center;
     
-    padding: 10px 200px 10px 200px;
-    
+}
+
+.section1 {
+    background-color: #1F2937;
+    display: flex; 
+    justify-content: space-between;
+    padding: 10px 200px;
+    gap: 30px;
 }
