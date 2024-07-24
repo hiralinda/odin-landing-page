@@ -37,7 +37,7 @@ button:hover {
     justify-content: space-between;
     align-items: center;
     padding: 40px 200px;
-    gap: 60px;
+
 }
 
 .section1 h1 {
@@ -75,7 +75,7 @@ button:hover {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 10px 30px; 
+    padding: 10px 50px; 
     background-color: #3882F6; 
     border-radius: 10px 
 }
@@ -86,4 +86,59 @@ button:hover {
     text-align: center;
     padding: 10px;
     
+}
+
+/* responsive design */
+@media (max-width: 768px) {
+    .nav, .section1, .section2, .section3, .section4 {
+        padding: 20px 5%;
+    }
+
+    .nav {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .section1 {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .section1 img {
+        max-width: 100%;
+        margin-top: 20px;
+    }
+
+    .section2 div {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    figure {
+        flex-basis: 100%;
+    }
+
+    .section4 div {
+        flex-direction: column;
+        gap: 20px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 480px) {
+    body {
+        font-size: 14px;
+    }
+
+    .section1 h1 {
+        font-size: 36px;
+    }
+
+    .section1 p {
+        font-size: 16px;
+    }
+
+    .section3 blockquote p {
+        font-size: 24px;
+    }
 }
