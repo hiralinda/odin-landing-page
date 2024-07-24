@@ -10,9 +10,16 @@ a {
 button {
     background-color: #3882F6;
     color: #F9FAF8;
-    padding: 5px 20px;
     border: none;
-    border-radius: 10px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #2563EB;
 }
 
 .nav {
@@ -26,8 +33,57 @@ button {
 
 .section1 {
     background-color: #1F2937;
-    display: flex; 
+    display: flex;
     justify-content: space-between;
-    padding: 10px 200px;
-    gap: 30px;
+    align-items: center;
+    padding: 40px 200px;
+    gap: 60px;
+}
+
+.section1 h1 {
+    margin-bottom: 10px;
+}
+
+.section1 p {
+    margin-bottom: 20px;
+}
+
+.section2 {
+    background-color: white;
+    text-align: center;
+    padding: 40px 200px;
+}
+
+.figcaption {
+    text-align: center;
+    font-size: small;
+}
+
+.section3 {
+    background-color: #E5E7EB;
+    text-align: center;
+    padding: 40px 200px;
+}
+
+.section4 {
+    background-color: white;
+    text-align: center;
+    padding: 40px 200px;
+}
+
+.section4 div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 30px; 
+    background-color: #3882F6; 
+    border-radius: 10px 
+}
+
+.section5 {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding: 10px;
+    
 }
